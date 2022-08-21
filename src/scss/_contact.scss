@@ -1,0 +1,95 @@
+@import'./variables';
+
+
+.auth {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 24rem !important;
+  width: 100vw !important;
+  outline: 2px solid rgba($color-slate-dark, 0.2) !important;
+  outline-offset: 1rem !important;
+  margin: 1.4rem auto 3rem auto !important;
+
+  &__container {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    margin-top: 0.7rem !important;
+    height: 100% !important;
+    width: 100vw !important;
+  }
+
+  &__form {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    width: 75% !important;
+    margin: 0 auto !important;
+    justify-content: space-between !important;
+
+    &--input {
+      height: 4rem !important;
+      border: 1px solid rgba($color-slate-dark, 0.4) !important;
+      border-radius: 10rem;
+      background-color: rgba($color-grey-dark, 0.1) !important;
+      outline: none;
+      padding-left: 1.4rem !important;
+      z-index: 100 !important;
+      font-size: 2rem !important;
+
+    
+      &:focus {
+        border: 2px solid $color-blue-light !important;
+
+        &::placeholder {
+          color: transparent;
+        }
+      }
+    }
+
+    &--submit {
+      height: 3rem !important;
+      font-size: 1.4rem !important;
+      font-weight: 800 !important;
+      border: 1px solid rgba($color-slate-dark, 0.4) !important;
+      border-radius: 10rem !important;
+      color: $color-grey-light !important;
+      background-color: $color-blue-light !important;
+      border: none !important;
+      -webkit-appearance: none !important;
+      cursor: pointer !important;
+      z-index: 100 !important;
+      transition: all 0.4s !important;
+      width: 20rem !important;
+      margin: 0 auto !important;
+
+      &:hover {
+        color: $color-blue-light !important;
+        background-color: $color-grey-light !important;
+        border: 2px solid $color-blue-light !important;
+      }
+    }
+  }
+
+  &__options {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-size: 1.6rem !important;
+    font-weight: 800 !important;
+    z-index: 100 !important;
+    color: $color-grey-dark;
+
+    &--login {
+      margin: 0 2.5rem !important;
+      cursor: pointer;
+
+      &:hover {
+        color: rgba($color-blue-light, 0.5) !important;
+      }
+    }
+    &--clicked {
+      color: $color-blue-light !important;
+    }
+  }
+}

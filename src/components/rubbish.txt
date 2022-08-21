@@ -1,0 +1,51 @@
+<div className="row">
+  
+        <div className="col">
+
+        <div className="about-logo img-float">
+          <img src={logo} alt="logo" className="logo-image"/>
+          <div>
+           <Typewriter
+           options={{
+            strings:['BUILDING CONSTRUCTION', 'ENGINEERING DESIGN', 'PROJECT MANAGEMENT', 'ARCHITECTURAL DESIGN', 'QUANTITY SURVEYING', 'RENOVATION EXPERTS'],
+            autoStart:true,
+            cursor:'........WITH ACL',
+            pauseFor: 2000,
+            deleteSpeed:2,
+            loop:true
+           }}   
+           />
+          </div>
+        </div>
+
+
+        </div>
+        <div className="col">
+        <div className="about-text">
+          <h2 className="about-text-title">OUR VISION...</h2>
+          <p className="about-text-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+            ipsa nihil iusto natus commodi quae eligendi praesentium aut
+            aspernatur nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          </p>
+        </div>
+
+
+        </div>
+
+
+
+      </div>
+      {/* <h1 className="about-header">ABRAHAMIKE CONSTRUCTION</h1> */}
+      <div className="about-container">
+      
+     
+        <div className="about-text">
+          <h2 className="about-text-title">what we do...</h2>
+          <p className="about-text-body">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+            ipsa nihil iusto natus commodi quae eligendi praesentium aut
+            aspernatur nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam voluptate eos, culpa adipisci laboriosam vero aperiam iure provident? Deleniti sed ullam voluptatibus? Enim aliquam sunt praesentium eligendi explicabo veniam, expedita molestias ut, error et architecto ex? Quas, quam ex accusantium cum, similique obcaecati, temporibus veniam repellat sit a adipisci minus.
+          </p>
+        </div>
+      </div>

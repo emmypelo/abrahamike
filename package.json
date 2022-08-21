@@ -1,0 +1,58 @@
+{
+  "name": "abrahamike",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://emmypelo.github.io/abrahamike",
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "^5.2.0",
+    "gh-pages": "^4.0.0",
+    "react": "^16.13.1",
+    "react-accessible-accordion": "^5.0.0",
+    "react-app-rewired": "^2.2.1",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "^16.13.1",
+    "react-icons": "^3.11.0",
+    "react-router-dom": "^6.3.0",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "3.4.3",
+    "react-toastify": "^9.0.8",
+    "typewriter-effect": "^2.19.0"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "scss": "node-sass --watch src/scss/main.scss -o src/styles",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "watch": "^1.0.2"
+  },
+  "engines": {
+    "node": "16.13.1",
+    "yarn": "1.22.18"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+@import "./variables";
+
+.header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 7rem;
+  box-shadow: 0 0.3rem 0.6rem rgba($color-black, 0.15);
+  background-color: rgb(49, 41, 25) !important;
+  &-logo{
+    max-width: 30vw;
+    display: flex;
+    height: 7rem;
+    text-decoration: none;}
+  &-links{
+    display: flex;
+    position: relative;
+    width: 70vw;
+    justify-content: space-around;
+    padding: 1rem;
+  }}
+
+  a.nav-link{
+    position: relative;
+    font-size: 2rem !important;
+    color: $color-blue-dark !important;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+  
+   
+  }
+
+  a.nav-link:hover{
+    color: $color-blue-light !important;
+  }
+
+.logo_img{
+  transform: scale(1) ;
+  // max-width: 7rem ;
+  // max-height: 7rem ;
+
+}
